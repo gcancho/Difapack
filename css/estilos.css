@@ -229,11 +229,20 @@ a {
 
 .maquinas {
   background-color: #E1F1FB;
+  padding: 10px 0;
+}
+
+.maquinas--margin {
+  margin-top: 66px;
 }
 
 .maquinas__titulo {
   margin: 20px 0;
   display: none;
+}
+
+.maquinas__titulo--display {
+  display: block;
 }
 
 .maquinas__card {
@@ -350,6 +359,16 @@ a {
 .presupuesto__subtitulo {
   text-align: center;
   margin: 5px 0;
+}
+
+.servicios__item {
+  display: flex;
+  margin: 12px 0;
+}
+
+.servicios__parrafo {
+  margin-left: 15px;
+  line-height: 16px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

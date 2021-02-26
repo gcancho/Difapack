@@ -254,11 +254,20 @@ a{
 
 .maquinas{
     background-color: $color3;
+    padding: $paddingSecciones;
+}
+
+.maquinas--margin{
+    margin-top: $marginTopGeneral;
 }
 
 .maquinas__titulo{
     margin: 20px 0;
     display: none;
+}
+
+.maquinas__titulo--display{
+    display: block;
 }
 
 .maquinas__card{
@@ -375,8 +384,6 @@ a{
     
 }
 
-
-
 .presupuesto__info{
     text-align: justify;
 }
@@ -384,4 +391,16 @@ a{
 .presupuesto__subtitulo{
     text-align: center;
     margin: 5px 0;
+}
+
+// Servicios
+
+.servicios__item{
+    display: flex;
+    margin: 12px 0;
+}
+
+.servicios__parrafo{
+    margin-left: 15px;
+    line-height: 16px;
 }
