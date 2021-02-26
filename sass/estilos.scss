@@ -8,9 +8,10 @@ $colorBoton: #232e58;
 
 $colorFondoInicio: #f1f1f1;
 $anchoInicioSaludo: 13.5488em;
-$paddingSecciones: 60px 0;
+$paddingSecciones: 10px 0;
 $tamanoBorderRadius: 4px;
 $margenTitulos: 0.725em 0;
+$marginTopGeneral: 66px;
 
 *{
     margin: 0;
@@ -24,6 +25,8 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     background-color: #E1F1FB;
+    // min-height: 100vh;
+    // position: relative;
 }
 
 ul{
@@ -62,6 +65,7 @@ a{
     position: relative;
     font-size: 18px;
     text-align: center;
+    margin: 10px 0;
 }
 
 .boton{
@@ -142,7 +146,7 @@ a{
 //Slider
 
 .slider__wrap{
-    margin-top: 66px;//Para que haya espacio entre la barra del header
+    margin-top: $marginTopGeneral;//Para que haya espacio entre la barra del header
     width: 95%;
     max-width: 900px;
     overflow: hidden; /*Ocultar imagenes*/
@@ -287,6 +291,9 @@ a{
 .footer{
     background-color: #000;
     padding: 15px 0;
+    // position: absolute;
+    // bottom: 0;
+    // width: 100%;
     .wrap{
         display: flex;
         justify-content: space-between;
@@ -316,11 +323,65 @@ a{
 }
 
 
+// NOSOTROS
+
+.nosotros{
+    margin-top: $marginTopGeneral;
+}
+
+.nosotros__wrap{
+    padding: $paddingSecciones;
+}
+
+.nosotros__imagen{
+    display: block;
+    margin: 25px auto;
+    border-radius: $tamanoBorderRadius;
+    border: 1px solid #fff;
+    box-shadow: 0 0 3px #000;
+}
+
+.nosotros__parrafo{
+    text-align: justify;
+    margin: 12px 0;
+    &:nth-child(1){
+        font-weight: 600;
+    }
+}
+
+.presupuesto__wrap{
+    padding: $paddingSecciones;
+}
+
+.presupuesto__item{
+    padding: 5px 0;
+    &:nth-child(2) .presupuesto__icono{
+        width: 41px;
+        height: 40px;
+    }    
+    &:nth-child(3) .presupuesto__icono{
+        width: 33px;
+        height: 49px;
+    }    
+    &:nth-child(4) .presupuesto__icono{
+        width: 50px;
+        height: 35px;
+    }
+}
+
+.presupuesto__icono{
+    display: block;
+    margin: 8px auto;
+    
+}
 
 
 
+.presupuesto__info{
+    text-align: justify;
+}
 
-// .temporal{
-//     background-color: $color3;
-//     height: 800px;
-// }
+.presupuesto__subtitulo{
+    text-align: center;
+    margin: 5px 0;
+}

@@ -48,6 +48,7 @@ a {
   position: relative;
   font-size: 18px;
   text-align: center;
+  margin: 10px 0;
 }
 
 .boton {
@@ -291,6 +292,64 @@ a {
 .footer__creditos a {
   color: #fff;
   font-weight: 600;
+}
+
+.nosotros {
+  margin-top: 66px;
+}
+
+.nosotros__wrap {
+  padding: 10px 0;
+}
+
+.nosotros__imagen {
+  display: block;
+  margin: 25px auto;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-shadow: 0 0 3px #000;
+}
+
+.nosotros__parrafo {
+  text-align: justify;
+  margin: 12px 0;
+}
+.nosotros__parrafo:nth-child(1) {
+  font-weight: 600;
+}
+
+.presupuesto__wrap {
+  padding: 10px 0;
+}
+
+.presupuesto__item {
+  padding: 5px 0;
+}
+.presupuesto__item:nth-child(2) .presupuesto__icono {
+  width: 41px;
+  height: 40px;
+}
+.presupuesto__item:nth-child(3) .presupuesto__icono {
+  width: 33px;
+  height: 49px;
+}
+.presupuesto__item:nth-child(4) .presupuesto__icono {
+  width: 50px;
+  height: 35px;
+}
+
+.presupuesto__icono {
+  display: block;
+  margin: 8px auto;
+}
+
+.presupuesto__info {
+  text-align: justify;
+}
+
+.presupuesto__subtitulo {
+  text-align: center;
+  margin: 5px 0;
 }
 
 /*# sourceMappingURL=estilos.css.map */

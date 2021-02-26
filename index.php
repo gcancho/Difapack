@@ -1,37 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/estilos.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <title>Difapack S.R.L</title>
-</head>
+<?php include "head.php"?>
 
 <body>
-    <header class="header">
-        <div class="wrap wrap--menu">
-            <div class="header__imagen">
-                <img src="./imagenes/fondo-header.jpg" alt="" />
-            </div>
-            <div class="header__barra">
-                <img src="./imagenes/logo.png" class="header__logo" />
+    <?php include "header.php"?>
 
-                <nav class="menu__toggle" id="menu__toggle">
-                    <div class="menu__lineas">
-                        <hr class="menu__linea">
-                        <hr class="menu__linea">
-                        <hr class="menu__linea">
-                    </div>
-                    <p class="menu__texto">Menú</p>
-                </nav>
-
-            </div>
-        </div>
-    </header>
     <section class="slider__wrap wrap">
         <div class="slider" id="slider">
             <div class="slider__section">
@@ -72,12 +46,12 @@
                     que se ajusten a sus
                     necesidades de producción y al ser fabricantes directos, le ofrecemos el más alto soporte técnico y
                     la capacitación necesaria para el buen funcionamiento de las maquinas.</p>
-                <a class="bienvenida__boton boton" href="nosotros.html">LEER MÁS</a>
+                <a class="bienvenida__boton boton" href="nosotros.php">LEER MÁS</a>
             </div>
         </div>
     </section>
     <section class="maquinas">
-        <div class="wrap">
+        <div class="maquinas__wrap wrap">
             <div class="line"></div>
             <h2 class="maquinas__titulo titulo">NUESTRAS MÁQUINAS</h2>
             <div class="maquinas__lista">
@@ -128,23 +102,10 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
-        <div class="wrap">
-            <div class="footer__redes">
-                <a href="https://www.facebook.com/DifaPack/" target="_blank">
-                    <img class="footer__icono footer__icono--facebook" src="./imagenes/iconos/ic_facebook.svg" alt="">
-                </a>
-                <a href="https://www.youtube.com/user/DIFAPACK/videos" target="_blank">
-                    <img class="footer__icono footer__icono--youtube" src="./imagenes/iconos/ic_youtube.svg" alt="">
-                </a>
-            </div>
-            <label class="footer__creditos">Creado por
-                <a href="http://giocancho.com/" target="_blank">Gio Cancho</a>
-            </label>
-        </div>
-    </footer>
-    <script src="menu.js"></script>
-    <script src="slider.js"></script>
+    
+    <?php include "footer.php"?>
+    
+    <?php include "scripts.php"?>
 </body>
 
 </html>
