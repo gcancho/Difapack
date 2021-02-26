@@ -13,13 +13,22 @@
 
 <body>
     <header class="header">
-        <div class="wrap">
+        <div class="wrap wrap--menu">
             <div class="header__imagen">
                 <img src="./imagenes/fondo-header.jpg" alt="" />
             </div>
             <div class="header__barra">
                 <img src="./imagenes/logo.png" class="header__logo" />
-                <i class="fa fa-bars header__icono"></i>
+
+                <nav class="menu__toggle" id="menu__toggle">
+                    <div class="menu__lineas">
+                        <hr class="menu__linea">
+                        <hr class="menu__linea">
+                        <hr class="menu__linea">
+                    </div>
+                    <p class="menu__texto">Menú</p>
+                </nav>
+
             </div>
         </div>
     </header>
@@ -63,7 +72,7 @@
                     que se ajusten a sus
                     necesidades de producción y al ser fabricantes directos, le ofrecemos el más alto soporte técnico y
                     la capacitación necesaria para el buen funcionamiento de las maquinas.</p>
-                <a class="bienvenida__boton boton" href="#">LEER MÁS</a>
+                <a class="bienvenida__boton boton" href="nosotros.html">LEER MÁS</a>
             </div>
         </div>
     </section>
@@ -73,45 +82,47 @@
             <h2 class="maquinas__titulo titulo">NUESTRAS MÁQUINAS</h2>
             <div class="maquinas__lista">
                 <article class="maquinas__card">
+                    <label class="maquinas__nombre">Máquinas</label>
+                    <label class="maquinas__nombre">Llenadoras de botellas</label>
+                    <img class="maquinas__foto" src="./imagenes/maquinas/Maquina_llenadoras_de_botellas.jpg" alt="">
+                    <a href="#" class="maquinas__boton boton">VER MÁS</a>
+                </article>
+                <article class="maquinas__card">
                     <label class="maquinas__nombre">MÁQUINAS</label>
-                    <label class="maquinas__nombre">LLENADORAS DE BOTELLAS</label>
+                    <label class="maquinas__nombre">Dosificadoras con tolva</label>
+                    <img class="maquinas__foto" src="./imagenes/maquinas/Maquinas_dosificadora_con_tolva.jpg" alt="">
+                    <a href="#" class="maquinas__boton boton">VER MÁS</a>
+                </article>
+                <article class="maquinas__card">
+                    <label class="maquinas__nombre">MÁQUINAS</label>
+                    <label class="maquinas__nombre">Dosificadoras de miel</label>
                     <img class="maquinas__foto" src="./imagenes/maquinas/Maquina_dosificadora_de_miel.jpg" alt="">
                     <a href="#" class="maquinas__boton boton">VER MÁS</a>
                 </article>
                 <article class="maquinas__card">
                     <label class="maquinas__nombre">MÁQUINAS</label>
-                    <label class="maquinas__nombre">LLENADORAS DE BOTELLAS</label>
-                    <img class="maquinas__foto" src="./imagenes/maquinas/Maquina_dosificadora_de_miel.jpg" alt="">
+                    <label class="maquinas__nombre">Dosificadoras sistema aguja</label>
+                    <img class="maquinas__foto" src="./imagenes/maquinas/Maquinas_dosificadora_sistema_aguja.jpg"
+                        alt="">
                     <a href="#" class="maquinas__boton boton">VER MÁS</a>
                 </article>
                 <article class="maquinas__card">
                     <label class="maquinas__nombre">MÁQUINAS</label>
-                    <label class="maquinas__nombre">LLENADORAS DE BOTELLAS</label>
-                    <img class="maquinas__foto" src="./imagenes/maquinas/Maquina_dosificadora_de_miel.jpg" alt="">
+                    <label class="maquinas__nombre">Enjuagadoras</label>
+                    <img class="maquinas__foto" src="./imagenes/maquinas/Maquinas_enjuagadoras_de_botellas_o_potes.jpg"
+                        alt="">
                     <a href="#" class="maquinas__boton boton">VER MÁS</a>
                 </article>
                 <article class="maquinas__card">
                     <label class="maquinas__nombre">MÁQUINAS</label>
-                    <label class="maquinas__nombre">LLENADORAS DE BOTELLAS</label>
-                    <img class="maquinas__foto" src="./imagenes/maquinas/Maquina_dosificadora_de_miel.jpg" alt="">
+                    <label class="maquinas__nombre">Roscadoras</label>
+                    <img class="maquinas__foto" src="./imagenes/maquinas/Maquinas_roscadoras.jpg" alt="">
                     <a href="#" class="maquinas__boton boton">VER MÁS</a>
                 </article>
                 <article class="maquinas__card">
                     <label class="maquinas__nombre">MÁQUINAS</label>
-                    <label class="maquinas__nombre">LLENADORAS DE BOTELLAS</label>
-                    <img class="maquinas__foto" src="./imagenes/maquinas/Maquina_dosificadora_de_miel.jpg" alt="">
-                    <a href="#" class="maquinas__boton boton">VER MÁS</a>
-                </article>
-                <article class="maquinas__card">
-                    <label class="maquinas__nombre">MÁQUINAS</label>
-                    <label class="maquinas__nombre">LLENADORAS DE BOTELLAS</label>
-                    <img class="maquinas__foto" src="./imagenes/maquinas/Maquina_dosificadora_de_miel.jpg" alt="">
-                    <a href="#" class="maquinas__boton boton">VER MÁS</a>
-                </article>
-                <article class="maquinas__card">
-                    <label class="maquinas__nombre">MÁQUINAS</label>
-                    <label class="maquinas__nombre">LLENADORAS DE BOTELLAS</label>
-                    <img class="maquinas__foto" src="./imagenes/maquinas/Maquina_dosificadora_de_miel.jpg" alt="">
+                    <label class="maquinas__nombre">Llenadoras de pintura</label>
+                    <img class="maquinas__foto" src="./imagenes/maquinas/Maquinas_llenadoras_de_pintura.jpg" alt="">
                     <a href="#" class="maquinas__boton boton">VER MÁS</a>
                 </article>
             </div>
@@ -132,6 +143,7 @@
             </label>
         </div>
     </footer>
+    <script src="menu.js"></script>
     <script src="slider.js"></script>
 </body>
 

@@ -38,6 +38,11 @@ a {
   width: 100%;
 }
 
+.wrap--menu {
+  max-width: initial;
+  width: 100%;
+}
+
 .titulo {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   position: relative;
@@ -62,7 +67,7 @@ a {
   width: 100%;
   padding: 0.625em 0;
   background: #121B40;
-  box-shadow: 0 0 5px #fff;
+  box-shadow: 0 0 2px #000;
   transition: all 0.5s;
 }
 
@@ -79,11 +84,41 @@ a {
 
 .header__logo {
   display: block;
-  width: 120px;
+  padding: 0 10px;
+  width: 150px;
 }
 
-.header__icono {
-  color: #fff;
+.menu__toggle {
+  height: 59px;
+  background: #fff;
+  padding: 0 8px;
+}
+
+.menu__lineas {
+  padding-top: 15px;
+}
+
+.menu__linea {
+  border: none;
+  background: #121B40;
+  height: 2px;
+  border-radius: 55px;
+  transition: all 0.4s;
+  margin-bottom: 3px;
+}
+
+.menu__linea:nth-child(3) {
+  width: 75%;
+}
+
+.menu__toggle p {
+  color: #121B40;
+  font-weight: 700 !important;
+}
+
+.menu__texto {
+  text-align: center;
+  font-size: 13px;
 }
 
 .slider__wrap {
