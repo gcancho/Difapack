@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  color: #121B40;
+  color: #000;
 }
 
 body {
@@ -18,6 +18,10 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+span {
+  color: #19318f;
 }
 
 .line {
@@ -49,6 +53,7 @@ a {
   font-size: 18px;
   text-align: center;
   margin: 10px 0;
+  text-transform: uppercase;
 }
 
 .boton {
@@ -58,6 +63,7 @@ a {
   color: #fff;
   box-shadow: 2px 2px 2px #000;
   font-size: 14px;
+  cursor: pointer;
 }
 
 .header {
@@ -93,6 +99,7 @@ a {
   height: 59px;
   background: #fff;
   padding: 0 8px;
+  cursor: pointer;
 }
 
 .menu__lineas {
@@ -369,6 +376,94 @@ a {
 .servicios__parrafo {
   margin-left: 15px;
   line-height: 16px;
+}
+
+.videos {
+  margin-top: 66px;
+  text-align: center;
+}
+
+.videos__wrap {
+  padding: 10px 0;
+}
+
+.videos__card {
+  padding: 10px 0;
+}
+
+.videos__subtitulo {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.videos__video {
+  padding: 15px 0;
+}
+.videos__video iframe {
+  width: 100%;
+  height: 250px;
+}
+
+.contacto {
+  margin-top: 66px;
+}
+
+.contacto__wrap {
+  padding: 10px 0;
+}
+
+.contacto__contactenos {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.contacto__datos {
+  display: flex;
+  justify-content: center;
+  margin: 8px 0;
+}
+
+.contacto__dato {
+  margin-left: 5px;
+}
+
+.contacto__formulario {
+  padding: 10px 0;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.contacto__input {
+  width: 100%;
+  display: block;
+  height: 30px;
+  margin: 10px auto;
+  padding: 0 5px;
+  font-size: 14px;
+}
+
+.contacto__textarea {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  height: 50px;
+  padding: 5px 5px;
+  font-size: 14px;
+}
+
+.contacto__boton {
+  margin: 10px 0;
+  display: block;
+}
+
+.contacto__mapa {
+  padding: 10px 0;
+}
+.contacto__mapa iframe {
+  display: block;
+  width: 100%;
+  height: 400px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
