@@ -441,6 +441,66 @@ span{
     }
 }
 
+// Maquinarias
+
+.maquinarias{
+    margin-top: $marginTopGeneral;
+}
+
+.maquinarias__wrap{
+    padding: $paddingSecciones;
+}
+
+.maquinarias__wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.maquinarias__item:nth-child(1){
+    order: 2;
+}
+
+.maquinarias__item:nth-child(2){
+    order: 1;
+}
+
+.maquinarias__boton{
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    padding: 10px 5px;
+    background: $colorBoton;
+    color: #fff;
+    border-radius: $tamanoBorderRadius;
+    margin: 5px 0;
+    i{
+        color: inherit;
+        margin-right: 2px;
+    }
+}
+
+.maquinarias__item{
+    padding: $paddingSecciones;
+    text-align: justify;
+}
+
+.maquinarias__descripcion{
+    margin: 10px 0;
+}
+
+.maquinarias__card{
+    text-align: center;
+    padding: 10px 0;
+    margin: 8px 0;
+    border-radius: $tamanoBorderRadius;
+}
+
+.maquinarias__imagen{
+    border: 5px solid #fff;
+    box-shadow: 0 0 3px #000;
+    margin: 5px 0;
+}
+
 //Contacto
 
 .contacto{

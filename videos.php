@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include "head.php" ?>
+<?php include "includes/head.php" ?>
 
 <body>
-    <?php include "header.php" ?>
+    <?php include "includes/header.php" ?>
     
     <section class="videos">
         <div class="videos__wrap wrap">
@@ -68,8 +68,8 @@
         </div>
     </section>
     
-    <?php include "footer.php" ?>
-    <?php include "scripts.php" ?>
+    <?php include "includes/footer.php" ?>
+    <?php include "includes/scripts.php" ?>
     
 </body>
 </html>
