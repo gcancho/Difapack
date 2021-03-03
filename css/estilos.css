@@ -7,6 +7,7 @@
 }
 
 body {
+  position: relative;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   background-color: #E1F1FB;
@@ -72,10 +73,11 @@ span {
   z-index: 5;
   display: block;
   width: 100%;
-  padding: 0.625em 0;
+  padding: 10px 0;
   background: #121B40;
   box-shadow: 0 0 2px #000;
   transition: all 0.5s;
+  height: 60px;
 }
 
 .header__imagen {
@@ -89,10 +91,16 @@ span {
   align-items: center;
 }
 
+.header__menu__arriba {
+  margin-top: 15px;
+}
+
 .header__logo {
   display: block;
   padding: 0 10px;
   width: 150px;
+  z-index: 999;
+  position: relative;
 }
 
 .menu__toggle {
@@ -100,6 +108,8 @@ span {
   background: #fff;
   padding: 0 8px;
   cursor: pointer;
+  z-index: 999;
+  width: 52px;
 }
 
 .menu__lineas {
@@ -127,6 +137,36 @@ span {
 .menu__texto {
   text-align: center;
   font-size: 13px;
+}
+
+.header__menu {
+  background-color: #121B40;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  clip-path: circle(0 at 100% 0);
+  transition: 1s ease;
+  padding: 0 15px;
+}
+
+.header__menu.active {
+  background-color: #121B40;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  clip-path: circle(141.4% at 100% 0);
+  transition: 1s ease;
+}
+
+.header__menu__item {
+  list-style: none;
+  padding: 20px 0;
+}
+
+.header__menu__link {
+  color: #fff;
 }
 
 .slider__wrap {
