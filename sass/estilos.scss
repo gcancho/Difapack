@@ -113,6 +113,7 @@ span{
 
 .header__menu__arriba{
     margin-top: 15px;
+    text-align: center;
 }
 
 .header__logo{
@@ -172,6 +173,7 @@ span{
 
 .header__menu.active{
     background-color: $color2;
+    padding: 20px 0;
     position: absolute;
     top: 0;
     width: 100vw;
@@ -186,10 +188,40 @@ span{
 }
 
 .header__menu__link{
+    width: inherit;
+    position: relative;
     color: #fff;
+    font-size: 20px;
+    &::after{
+        position: absolute;
+        left: calc(50% - 50px);
+        content: '';
+        display: block;
+        background-color: #fff;
+        height: 0;
+        width: 0;
+        transition: ease 0.2s;
+    }
 }
 
+.header__menu__link:hover{
+    color: #fff;
+    font-weight: 500;
+    &::after{
+        height: 2px;
+        width: 100px;
+        transition: ease 0.2s;
+    }
+}
 
+.header__menu__abajo{
+    text-align: center;
+    margin-top: 25px;
+    p{
+        color: #fff;
+        margin: 10px 0;
+    }
+}
 
 //Slider
 
