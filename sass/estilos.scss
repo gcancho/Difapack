@@ -636,3 +636,84 @@ span{
         height: 400px;
     }
 }
+
+// Media Querys
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    .header{
+        background-color: red;
+    }
+
+    .maquinas__lista{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    .header{
+        background-color: green;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    .header{
+        background-color: skyblue;
+    }
+
+    .header__imagen{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: block;
+        img{
+            width: 100%;
+            display: block;
+            filter: brightness(40%);
+            height: 135px;
+            object-fit: cover;
+        }
+    }
+
+    .header__logo{
+        width: 350px;
+    }
+
+    .menu__toggle{
+        display: none;
+    }
+
+    .header__menu{
+        background-color: #000;
+        padding: initial;; 
+        position: initial; 
+        top: initial; 
+        width: initial; 
+        height: initial; 
+        clip-path: initial; 
+        transition: initial;
+    }
+
+    .header__barra{
+        height: initial;
+    }
+
+    .header__menu__arriba{
+        display: flex;
+        height: 76px;
+    }
+
+    .header__menu__abajo{
+        display: none;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    
+}
