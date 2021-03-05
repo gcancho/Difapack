@@ -98,8 +98,8 @@ span {
 
 .header__logo {
   display: block;
-  padding: 0 10px;
-  width: 150px;
+  padding: 0 14px;
+  width: 9.375em;
   z-index: 999;
   position: relative;
 }
@@ -107,10 +107,10 @@ span {
 .menu__toggle {
   height: 59px;
   background: #fff;
-  padding: 0 8px;
+  padding: 0 12px;
   cursor: pointer;
   z-index: 999;
-  width: 52px;
+  width: 60px;
 }
 
 .menu__lineas {
@@ -599,8 +599,12 @@ span {
 }
 
 @media (min-width: 576px) {
+  body {
+    font-size: 18px;
+  }
+
   .header {
-    background-color: red;
+    background-color: #121B40;
   }
 
   .maquinas__lista {
@@ -608,10 +612,30 @@ span {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
+  .menu__toggle {
+    padding: 0 18px;
+    width: 76px;
+  }
 }
 @media (min-width: 768px) {
   .header {
     background-color: green;
+  }
+
+  .header__logo {
+    padding: 0 20px;
+    width: 12.375em;
+  }
+
+  .header__menu__arriba {
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .header__menu__item {
+    list-style: none;
+    padding: 20px 0;
   }
 }
 @media (min-width: 992px) {
@@ -653,17 +677,62 @@ span {
     transition: initial;
   }
 
+  .slider__wrap {
+    width: 760px;
+  }
+
+  .header__menu__arriba {
+    max-width: 75em;
+  }
+
+  .header__menu__link {
+    margin-right: 20px;
+    padding: 5px 10px;
+  }
+
+  .header__menu__link:hover {
+    background-color: #162F91;
+    border-radius: 4px;
+    font-weight: normal;
+  }
+
+  .header__menu__link::after {
+    content: none;
+  }
+
   .header__barra {
     height: initial;
   }
 
   .header__menu__arriba {
     display: flex;
-    height: 76px;
+    height: 60px;
+    width: 95%;
+    margin: 30px auto;
+    align-items: center;
   }
 
   .header__menu__abajo {
     display: none;
+  }
+
+  .header__menu {
+    background-color: #000;
+  }
+
+  .header__menu.active {
+    background-color: #000;
+    padding: initial;
+    position: initial;
+    top: initial;
+    width: initial;
+    height: initial;
+    clip-path: initial;
+    transition: initial;
+  }
+
+  .slider__wrap, .nosotros, .maquinas, .servicios, .contacto {
+    margin-top: 215px;
   }
 }
 

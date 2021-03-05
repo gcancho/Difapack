@@ -13,6 +13,7 @@ $paddingSecciones: 10px 0;
 $tamanoBorderRadius: 4px;
 $margenTitulos: 0.725em 0;
 $marginTopGeneral: 66px;
+$marginTopDesktop: 215px;
 
 *{
     margin: 0;
@@ -118,8 +119,8 @@ span{
 
 .header__logo{
     display: block;
-    padding: 0 10px;
-    width: 150px;
+    padding: 0 14px;
+    width: 9.375em;
     z-index: 999;
     position: relative;
 }
@@ -127,10 +128,10 @@ span{
 .menu__toggle{
     height: 59px;
     background: #fff;
-    padding: 0 8px;
+    padding: 0 12px;
     cursor: pointer;
     z-index: 999;
-    width: 52px;
+    width: 60px;
 }
 
 .menu__lineas {
@@ -641,8 +642,11 @@ span{
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
+    body{
+        font-size: 18px;
+    }
     .header{
-        background-color: red;
+        background-color: $color2;
     }
 
     .maquinas__lista{
@@ -650,12 +654,31 @@ span{
         flex-wrap: wrap;
         justify-content: space-between;
     }
+
+    .menu__toggle{
+        padding: 0 18px;
+        width: 76px;
+    }
 }
+
+
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
     .header{
         background-color: green;
+    }
+    .header__logo{
+        padding: 0 20px;
+        width: 12.375em;
+    }
+    .header__menu__arriba {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .header__menu__item {
+        list-style: none;
+        padding: 20px 0;
     }
 }
 
@@ -698,22 +721,78 @@ span{
         clip-path: initial; 
         transition: initial;
     }
-
+    .slider__wrap{
+        width: 760px;
+    }
+    .header__menu__arriba{
+        max-width: 75em;
+    }
+    .header__menu__link{
+        margin-right: 20px;
+        padding: 5px 10px;
+    }
+    .header__menu__link:hover{
+        background-color: $color1;
+        border-radius: 4px;
+        font-weight: normal;
+    }
+    .header__menu__link::after{
+        content: none;
+    }    
     .header__barra{
         height: initial;
     }
 
     .header__menu__arriba{
         display: flex;
-        height: 76px;
+        height: 60px;
+        width: 95%;
+        margin: 30px auto;
+        align-items: center;
     }
 
     .header__menu__abajo{
         display: none;
     }
+    .header__menu{
+        background-color: #000; 
+    }
+    .header__menu.active{
+        background-color: #000; 
+        padding: initial;; 
+        position: initial; 
+        top: initial; 
+        width: initial; 
+        height: initial; 
+        clip-path: initial; 
+        transition: initial;
+    }
+    .slider__wrap, .nosotros, .maquinas, .servicios, .contacto{
+        margin-top: $marginTopDesktop;
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
-    
+    body{
+        // background-color: yellow;
+    }
 }
+
+
+// Landscape
+// @media (max-width: 768px) and (orientation: landscape){
+//     .header__menu__arriba{
+//         margin-top: 0 !important;
+//     }
+//     .header__menu__item{
+//         padding: 6px 0 !important;
+//     }
+//     .header__menu__link{
+//         font-size: 1.2em;
+//         font-weight: normal;
+//     }
+//     .header__menu__abajo{
+//         display: none;
+//     }
+// }
