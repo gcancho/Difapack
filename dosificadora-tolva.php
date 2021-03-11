@@ -6,6 +6,7 @@
 <body>
     <?php include "./includes/header.php" ?>
 
+    <div class="content">
     <section class="maquinarias">
         <div class="maquinarias__wrap wrap">
             <article class="maquinarias__item">
@@ -62,6 +63,8 @@
             </article>
         </div>
     </section>
+    </div>
+    
     <?php include "./includes/footer.php" ?>
     <?php include "./includes/scripts.php" ?>
 </body>

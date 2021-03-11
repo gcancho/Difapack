@@ -13,6 +13,10 @@ body {
   background-color: #E1F1FB;
 }
 
+.content {
+  min-height: calc(100vh - 134px - 80px);
+}
+
 ul {
   list-style: none;
 }
@@ -357,6 +361,7 @@ span {
 }
 
 .footer {
+  height: 80px;
   background-color: #000;
   padding: 15px 0;
 }
@@ -517,6 +522,9 @@ span {
 .maquinarias__boton i {
   color: inherit;
   margin-right: 2px;
+}
+.maquinarias__boton:hover {
+  background-color: #1a213f;
 }
 
 .maquinarias__item {
@@ -806,6 +814,10 @@ span {
     margin: 20px 0;
   }
 
+  .presupuesto__item:nth-child(2) .presupuesto__icono {
+    margin: 8px 49px;
+  }
+
   .presupuesto__item:nth-child(3) .presupuesto__icono {
     margin: 8px 53px;
   }
@@ -891,7 +903,17 @@ span {
     text-align: left;
   }
   .maquinarias__card h3 {
+    height: 54px;
     font-size: 1.1em;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    font-size: 1.1em;
+  }
+
+  .maquinas__card {
+    padding: 30px 40px;
   }
 }
 

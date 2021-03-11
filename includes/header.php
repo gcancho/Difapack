@@ -25,6 +25,7 @@
                 <li class="header__menu__item"><a class="header__menu__link" href="nosotros.php">Nosotros</a></li>
                 <li class="header__menu__item"><a class="header__menu__link" href="maquinarias.php">Maquinarias</a></li>
                 <li class="header__menu__item"><a class="header__menu__link" href="servicios.php">Servicios</a></li>
+                <!-- <li class="header__menu__item"><a class="header__menu__link" href="videos.php">Videos</a></li> -->
                 <li class="header__menu__item"><a class="header__menu__link" href="contacto.php">Contacto</a></li>
             </div>
             <div class="header__menu__abajo">

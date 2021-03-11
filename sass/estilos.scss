@@ -32,6 +32,14 @@ body{
     // position: relative;
 }
 
+.content{
+    min-height: calc(100vh - 134px - 80px);
+}
+
+// html, body {
+//     height: 100%;
+// }
+
 ul{
     list-style: none;
 }
@@ -383,6 +391,8 @@ span{
 // Footer
 
 .footer{
+   
+    height: 80px;
     background-color: #000;
     padding: 15px 0;
     // position: absolute;
@@ -553,6 +563,9 @@ span{
     i{
         color: inherit;
         margin-right: 2px;
+    }
+    &:hover{
+        background-color: #1a213f;
     }
 }
 
@@ -827,6 +840,9 @@ span{
         display: flex;
         margin: 20px 0;
     }
+    .presupuesto__item:nth-child(2) .presupuesto__icono{
+        margin: 8px 49px;
+    }
     .presupuesto__item:nth-child(3) .presupuesto__icono{
         margin: 8px 53px;
     }
@@ -899,6 +915,7 @@ span{
     .maquinarias__card{
         text-align: left;
         h3{
+            height: 54px;
             font-size: 1.1em;
         }
     }
@@ -906,12 +923,16 @@ span{
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
-    // .wrap--menu{
-    //     max-width: initial;
-    //     width: initial;
-    // }
     body{
-        // background-color: yellow;
+        font-size: 1.1em;
+    }
+    .maquinas__card {
+        padding: 30px 40px;
+    }
+    .boton{
+        // font-size: 0.9em;
+        // width: 120px;
+        // padding: 14px 14px;
     }
 }
 
