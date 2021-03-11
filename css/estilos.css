@@ -65,6 +65,11 @@ span {
   box-shadow: 2px 2px 2px #000;
   font-size: 14px;
   cursor: pointer;
+  text-transform: uppercase;
+}
+
+.boton:hover {
+  background-color: #1a213f;
 }
 
 .header {
@@ -868,6 +873,25 @@ span {
 
   .maquinarias__item:nth-child(2) {
     margin-left: 30px;
+    min-width: 814px;
+    max-width: 814px;
+  }
+
+  .maquinarias__conjunto {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .maquinarias__modelos {
+    flex-grow: 1;
+    max-width: 400px;
+  }
+
+  .maquinarias__card {
+    text-align: left;
+  }
+  .maquinarias__card h3 {
+    font-size: 1.1em;
   }
 }
 

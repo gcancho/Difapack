@@ -27,34 +27,36 @@
                 <p class="maquinarias__descripcion">La maquina puede ejecutar el llenado a una velocidad de 50 golpes (pirotines) x minuto
                     Ha sido fabricada para llenar masa de keke, marmoleado, mayonesa, manjar blanco, fosh, mermeladas, conservas, etc.
                 </p>
-                <div class="maquinarias__modelos">
-                    <div class="maquinarias__card">
-                        <h3>Máquina dosificadora de keke</h3>
-                        <img class="maquinarias__imagen" src="./imagenes/Maquinas_dosificadora_con_tolva/Maquina_dosificadora_de_keke.jpg" alt="">
+                <div class="maquinarias__conjunto">
+                    <div class="maquinarias__modelos">
+                        <div class="maquinarias__card">
+                            <h3>Máquina dosificadora de keke</h3>
+                            <img class="maquinarias__imagen" src="./imagenes/Maquinas_dosificadora_con_tolva/Maquina_dosificadora_de_keke.jpg" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="maquinarias__modelos">
-                    <div class="maquinarias__card">
-                        <h3>Máquina dosificadora de manjar</h3>
-                        <img class="maquinarias__imagen" src="./imagenes/Maquinas_dosificadora_con_tolva/Maquina_dosificadora_de_manjar.jpg" alt="">
+                    <div class="maquinarias__modelos">
+                        <div class="maquinarias__card">
+                            <h3>Máquina dosificadora de manjar</h3>
+                            <img class="maquinarias__imagen" src="./imagenes/Maquinas_dosificadora_con_tolva/Maquina_dosificadora_de_manjar.jpg" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="maquinarias__modelos">
-                    <div class="maquinarias__card">
-                        <h3>Máquina dosificadora de manjar</h3>
-                        <img class="maquinarias__imagen" src="./imagenes/Maquinas_dosificadora_con_tolva/Maquina_dosificadora_de_manjar_2.jpg" alt="">
+                    <div class="maquinarias__modelos">
+                        <div class="maquinarias__card">
+                            <h3>Máquina dosificadora de manjar</h3>
+                            <img class="maquinarias__imagen" src="./imagenes/Maquinas_dosificadora_con_tolva/Maquina_dosificadora_de_manjar_2.jpg" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="maquinarias__modelos">
-                    <div class="maquinarias__card">
-                        <h3>Máquina llenadora de goma</h3>
-                        <img class="maquinarias__imagen" src="./imagenes/Maquinas_dosificadora_con_tolva/Maquina_llenadora_de_goma.jpg" alt="">
+                    <div class="maquinarias__modelos">
+                        <div class="maquinarias__card">
+                            <h3>Máquina llenadora de goma</h3>
+                            <img class="maquinarias__imagen" src="./imagenes/Maquinas_dosificadora_con_tolva/Maquina_llenadora_de_goma.jpg" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="maquinarias__modelos">
-                    <div class="maquinarias__card">
-                        <h3>Máquina llenadora de colaxible</h3>
-                        <img class="maquinarias__imagen" src="./imagenes/Maquinas_dosificadora_con_tolva/Maquina_llenadora_de_colaxibles.jpg" alt="">
+                    <div class="maquinarias__modelos">
+                        <div class="maquinarias__card">
+                            <h3>Máquina llenadora de colaxible</h3>
+                            <img class="maquinarias__imagen" src="./imagenes/Maquinas_dosificadora_con_tolva/Maquina_llenadora_de_colaxibles.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </article>

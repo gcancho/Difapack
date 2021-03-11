@@ -27,34 +27,36 @@
                     Esta maquina puede ser regulada de acuerdo a la altura de las botellas y de acuerdo a su diamtro, puede llenar capacidades de 120ml a 3 litros, tambien puede ser fabricada con 4 picos a 12 picos y tiene un tanque con capacidad desde 30 a 90 litros o mas</p>
                 <p class="maquinarias__descripcion">La máquina puede llenar aceite sacha inchi o ta bien sirve para llenar productos en frio tales como vinagre de manzana, citrus, agua de mesa, colonias, perfumes, esencias, etc.
                 </p>
-                <div class="maquinarias__modelos">
-                    <div class="maquinarias__card">
-                        <h3>Máquina dosificadora de aceite</h3>
-                        <img class="maquinarias__imagen" src="./imagenes/Maquinas_llenadoras_de_botellas/Dosificadora_de_aceite.jpg" alt="">
+                <div class="maquinarias__conjunto">
+                    <div class="maquinarias__modelos">
+                        <div class="maquinarias__card">
+                            <h3>Máquina dosificadora de aceite</h3>
+                            <img class="maquinarias__imagen" src="./imagenes/Maquinas_llenadoras_de_botellas/Dosificadora_de_aceite.jpg" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="maquinarias__modelos">
-                    <div class="maquinarias__card">
-                        <h3>Máquina llenadora de líquidos para botellas</h3>
-                        <img class="maquinarias__imagen" src="./imagenes/Maquinas_llenadoras_de_botellas/Maquina_llenadora_de_liquidos_para_botellas_3.jpg" alt="">
+                    <div class="maquinarias__modelos">
+                        <div class="maquinarias__card">
+                            <h3>Máquina llenadora de líquidos para botellas</h3>
+                            <img class="maquinarias__imagen" src="./imagenes/Maquinas_llenadoras_de_botellas/Maquina_llenadora_de_liquidos_para_botellas_3.jpg" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="maquinarias__modelos">
-                    <div class="maquinarias__card">
-                        <h3>Máquina llenadora de líquidos para botellas</h3>
-                        <img class="maquinarias__imagen" src="./imagenes/Maquinas_llenadoras_de_botellas/Maquina_llenadora_de_liquidos_para_botellas.jpg" alt="">
+                    <div class="maquinarias__modelos">
+                        <div class="maquinarias__card">
+                            <h3>Máquina llenadora de líquidos para botellas</h3>
+                            <img class="maquinarias__imagen" src="./imagenes/Maquinas_llenadoras_de_botellas/Maquina_llenadora_de_liquidos_para_botellas.jpg" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="maquinarias__modelos">
-                    <div class="maquinarias__card">
-                        <h3>Máquina llenadora de líquidos para botellas</h3>
-                        <img class="maquinarias__imagen" src="./imagenes/Maquinas_llenadoras_de_botellas/Maquina_llenadora_de_liquidos_para_botellas_2.jpg" alt="">
+                    <div class="maquinarias__modelos">
+                        <div class="maquinarias__card">
+                            <h3>Máquina llenadora de líquidos para botellas</h3>
+                            <img class="maquinarias__imagen" src="./imagenes/Maquinas_llenadoras_de_botellas/Maquina_llenadora_de_liquidos_para_botellas_2.jpg" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="maquinarias__modelos">
-                    <div class="maquinarias__card">
-                        <h3>Máquina llenadora de líquidos para botellas PET</h3>
-                        <img class="maquinarias__imagen" src="./imagenes/Maquinas_llenadoras_de_botellas/Maquina_llenadora_de_botellas_pet.jpg" alt="">
+                    <div class="maquinarias__modelos">
+                        <div class="maquinarias__card">
+                            <h3>Máquina llenadora de líquidos para botellas PET</h3>
+                            <img class="maquinarias__imagen" src="./imagenes/Maquinas_llenadoras_de_botellas/Maquina_llenadora_de_botellas_pet.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </article>

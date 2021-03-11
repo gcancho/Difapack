@@ -25,37 +25,39 @@
                 <h2 class="maquinarias__titulo titulo">Máquinas dosificadoras con sistema de aguja</h2>
                 <p class="maquinarias__descripcion"><b>Las maquinas con sistema de aguja</b> estan hechas totalmente de acero inoxidable, y cuenta con un taponador en caso sea necesario.
                 <p class="maquinarias__descripcion">La maquina pueden llenar a una velocidad de 30 frascos por minuto, cuenta con un sistema aguja de llenado por volumen y sistema de cierre de pico antigoteo.
-                Sus capaciades de llenado son desde 10 ml a 120 ml.
-                Esta maquina puede llenar esencias, tinturas, agua oxigenada, alcohol, bencina, tiner, alcohol yodado, acetona, tintes, etc.
+                    Sus capaciades de llenado son desde 10 ml a 120 ml.
+                    Esta maquina puede llenar esencias, tinturas, agua oxigenada, alcohol, bencina, tiner, alcohol yodado, acetona, tintes, etc.
                 </p>
-                <div class="maquinarias__modelos">
-                    <div class="maquinarias__card">
-                        <h3>Máquina dosificadora de alcohol (Sistema Aguja)</h3>
-                        <img class="maquinarias__imagen" src="./imagenes/Maquinas_dosificadora_sistema_aguja/Dosificadora_de_alcohol-sistema_aguja.jpg" alt="">
+                <div class="maquinarias__conjunto">
+                    <div class="maquinarias__modelos">
+                        <div class="maquinarias__card">
+                            <h3>Máquina dosificadora de alcohol (Sistema Aguja)</h3>
+                            <img class="maquinarias__imagen" src="./imagenes/Maquinas_dosificadora_sistema_aguja/Dosificadora_de_alcohol-sistema_aguja.jpg" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="maquinarias__modelos">
-                    <div class="maquinarias__card">
-                        <h3>Máquina dosificadora de alcohol (Sistema Aguja)</h3>
-                        <img class="maquinarias__imagen" src="./imagenes/Maquinas_dosificadora_sistema_aguja/Maquina_dosificadora_de_alcohol-sistema_aguja.jpg" alt="">
+                    <div class="maquinarias__modelos">
+                        <div class="maquinarias__card">
+                            <h3>Máquina dosificadora de alcohol (Sistema Aguja)</h3>
+                            <img class="maquinarias__imagen" src="./imagenes/Maquinas_dosificadora_sistema_aguja/Maquina_dosificadora_de_alcohol-sistema_aguja.jpg" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="maquinarias__modelos">
-                    <div class="maquinarias__card">
-                        <h3>Máquina dosificadora de alcohol (Sistema Aguja)</h3>
-                        <img class="maquinarias__imagen" src="./imagenes/Maquinas_dosificadora_sistema_aguja/Maquina_Dosificadora_de_alcohol-sistema_aguja_2.jpg" alt="">
+                    <div class="maquinarias__modelos">
+                        <div class="maquinarias__card">
+                            <h3>Máquina dosificadora de alcohol (Sistema Aguja)</h3>
+                            <img class="maquinarias__imagen" src="./imagenes/Maquinas_dosificadora_sistema_aguja/Maquina_Dosificadora_de_alcohol-sistema_aguja_2.jpg" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="maquinarias__modelos">
-                    <div class="maquinarias__card">
-                        <h3>Máquina dosificadora de tintes</h3>
-                        <img class="maquinarias__imagen" src="./imagenes/Maquinas_dosificadora_sistema_aguja/Maquina_dosificadora_de_tintes.jpg" alt="">
+                    <div class="maquinarias__modelos">
+                        <div class="maquinarias__card">
+                            <h3>Máquina dosificadora de tintes</h3>
+                            <img class="maquinarias__imagen" src="./imagenes/Maquinas_dosificadora_sistema_aguja/Maquina_dosificadora_de_tintes.jpg" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="maquinarias__modelos">
-                    <div class="maquinarias__card">
-                        <h3>Máquina dosificadora de esencias</h3>
-                        <img class="maquinarias__imagen" src="./imagenes/Maquinas_dosificadora_sistema_aguja/Maquina_dosificadora_de_esencias.jpg" alt="">
+                    <div class="maquinarias__modelos">
+                        <div class="maquinarias__card">
+                            <h3>Máquina dosificadora de esencias</h3>
+                            <img class="maquinarias__imagen" src="./imagenes/Maquinas_dosificadora_sistema_aguja/Maquina_dosificadora_de_esencias.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </article>

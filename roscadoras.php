@@ -25,22 +25,24 @@
                 <h2 class="maquinarias__titulo titulo">Máquinas roscadoras</h2>
                 <p class="maquinarias__descripcion"><b>La maquina roscadora (capsuladora)</b> para tapas pilfer boca 18 o boca 32 a mas.</p>
                 <p class="maquinarias__descripcion">La máquina cuenta con una columna porta sistema encapsuladora un sistema de rotacion mediante poleas, fajas, motor y una caja de marcha y parada de facil accionamiento y control.</p>
-                <div class="maquinarias__modelos">
-                    <div class="maquinarias__card">
-                        <h3>Máquina dosificadora de alcohol (Sistema Aguja)</h3>
-                        <img class="maquinarias__imagen" src="./imagenes/Maquinas_roscadoras/Maquina_roscadora_2.jpg" alt="">
+                <div class="maquinarias__conjunto">
+                    <div class="maquinarias__modelos">
+                        <div class="maquinarias__card">
+                            <h3>Máquina dosificadora de alcohol (Sistema Aguja)</h3>
+                            <img class="maquinarias__imagen" src="./imagenes/Maquinas_roscadoras/Maquina_roscadora_2.jpg" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="maquinarias__modelos">
-                    <div class="maquinarias__card">
-                        <h3>Máquina dosificadora de alcohol (Sistema Aguja)</h3>
-                        <img class="maquinarias__imagen" src="./imagenes/Maquinas_roscadoras/Maquina_roscadora_3.jpg" alt="">
+                    <div class="maquinarias__modelos">
+                        <div class="maquinarias__card">
+                            <h3>Máquina dosificadora de alcohol (Sistema Aguja)</h3>
+                            <img class="maquinarias__imagen" src="./imagenes/Maquinas_roscadoras/Maquina_roscadora_3.jpg" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="maquinarias__modelos">
-                    <div class="maquinarias__card">
-                        <h3>Máquina dosificadora de alcohol (Sistema Aguja)</h3>
-                        <img class="maquinarias__imagen" src="./imagenes/Maquinas_roscadoras/Maquina_roscadora.jpg" alt="">
+                    <div class="maquinarias__modelos">
+                        <div class="maquinarias__card">
+                            <h3>Máquina dosificadora de alcohol (Sistema Aguja)</h3>
+                            <img class="maquinarias__imagen" src="./imagenes/Maquinas_roscadoras/Maquina_roscadora.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </article>
