@@ -639,6 +639,23 @@ span {
   }
 }
 @media (min-width: 992px) {
+  body {
+    font-size: 1em;
+  }
+
+  .wrap--menu {
+    max-width: 75em;
+    width: 95%;
+  }
+
+  .header {
+    position: initial;
+  }
+
+  .header__logo {
+    padding: 0;
+  }
+
   .header {
     background-color: skyblue;
   }
@@ -681,10 +698,6 @@ span {
     width: 760px;
   }
 
-  .header__menu__arriba {
-    max-width: 75em;
-  }
-
   .header__menu__link {
     margin-right: 20px;
     padding: 5px 10px;
@@ -710,6 +723,8 @@ span {
     width: 95%;
     margin: 30px auto;
     align-items: center;
+    max-width: 75em;
+    margin: 15px auto;
   }
 
   .header__menu__abajo {
@@ -731,8 +746,128 @@ span {
     transition: initial;
   }
 
-  .slider__wrap, .nosotros, .maquinas, .servicios, .contacto {
-    margin-top: 215px;
+  .slider__wrap {
+    margin-top: 140px;
+  }
+
+  .bienvenida__titulo {
+    font-size: 1.3em;
+  }
+
+  .bienvenida__informacion {
+    padding: 20px 0;
+  }
+
+  .bienvenida__parrafo:nth-child(3) {
+    display: block;
+  }
+
+  .bienvenida__boton {
+    margin: 20px auto;
+  }
+
+  .maquinas__titulo {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .maquinas__card {
+    padding: 30px 20px;
+  }
+
+  .nosotros__titulo {
+    margin-top: 66px;
+  }
+
+  .footer__creditos {
+    font-size: 0.9em;
+  }
+
+  .nosotros {
+    margin-top: 80px;
+  }
+
+  .nosotros__contenido {
+    display: flex;
+  }
+
+  .nosotros__parrafos {
+    margin-left: 30px;
+    line-height: 28px;
+  }
+
+  .presupuesto__item {
+    display: flex;
+    margin: 20px 0;
+  }
+
+  .presupuesto__item:nth-child(3) .presupuesto__icono {
+    margin: 8px 53px;
+  }
+
+  .presupuesto__item:nth-child(4) .presupuesto__icono {
+    margin: 8px 45px;
+  }
+
+  .presupuesto__subtitulo {
+    text-align: left;
+  }
+
+  .maquinas--margin {
+    margin-top: 150px;
+  }
+
+  .servicios__item {
+    margin: 22px 0;
+  }
+
+  .fas.fa-check-square {
+    font-size: 20px;
+  }
+
+  .contacto {
+    margin-top: 130px;
+  }
+
+  .contacto__columnas {
+    display: flex;
+  }
+
+  .contacto__contactenos {
+    flex-grow: 1;
+  }
+
+  .contacto__formulario {
+    flex-grow: 1;
+    width: auto;
+  }
+
+  .contacto__datos {
+    margin: 30px 0;
+  }
+
+  .maquinarias {
+    margin-top: 140px;
+  }
+
+  .maquinarias__wrap {
+    flex-direction: row-reverse;
+  }
+
+  .maquinarias__item:nth-child(1) {
+    width: 1100px;
+  }
+
+  .maquinarias__boton {
+    padding: 10px 8px;
+  }
+  .maquinarias__boton i {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+
+  .maquinarias__item:nth-child(2) {
+    margin-left: 30px;
   }
 }
 

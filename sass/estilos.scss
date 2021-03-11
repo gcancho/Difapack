@@ -13,7 +13,7 @@ $paddingSecciones: 10px 0;
 $tamanoBorderRadius: 4px;
 $margenTitulos: 0.725em 0;
 $marginTopGeneral: 66px;
-$marginTopDesktop: 215px;
+$marginTopDesktop: 140px;
 
 *{
     margin: 0;
@@ -684,10 +684,23 @@ span{
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
+    body{
+        font-size: 1em;
+        // background-color: red;
+    }
+    .wrap--menu{
+        max-width: 75em;
+        width: 95%;
+    }
+    .header{
+        position: initial;
+    }
+    .header__logo{
+        padding: 0;
+    }
     .header{
         background-color: skyblue;
     }
-
     .header__imagen{
         position: absolute;
         top: 0;
@@ -706,11 +719,9 @@ span{
     .header__logo{
         width: 350px;
     }
-
     .menu__toggle{
         display: none;
     }
-
     .header__menu{
         background-color: #000;
         padding: initial;; 
@@ -723,9 +734,6 @@ span{
     }
     .slider__wrap{
         width: 760px;
-    }
-    .header__menu__arriba{
-        max-width: 75em;
     }
     .header__menu__link{
         margin-right: 20px;
@@ -749,6 +757,8 @@ span{
         width: 95%;
         margin: 30px auto;
         align-items: center;
+        max-width: 75em;
+        margin: 15px auto;
     }
 
     .header__menu__abajo{
@@ -767,13 +777,119 @@ span{
         clip-path: initial; 
         transition: initial;
     }
-    .slider__wrap, .nosotros, .maquinas, .servicios, .contacto{
+    .slider__wrap{
         margin-top: $marginTopDesktop;
+    }
+    .bienvenida__titulo{
+        font-size: 1.3em;
+    }
+    .bienvenida__informacion{
+        padding: 20px 0;
+    }
+    .bienvenida__parrafo:nth-child(3){
+        display: block;
+    }
+    .bienvenida__boton{
+        margin: 20px auto;
+    }
+    .maquinas__titulo{
+        display: block;
+        margin: 0 auto;
+    }
+    .maquinas__card{
+        padding: 30px 20px;
+    }
+
+    .nosotros__titulo{
+        margin-top: $marginTopGeneral;
+    }
+    .footer__creditos{
+        font-size: 0.9em;
+    }
+
+
+
+    .nosotros{
+        margin-top: 80px;
+    }
+    .nosotros__contenido{
+        display: flex;
+    }
+    .nosotros__parrafos{
+        margin-left: 30px;
+        line-height: 28px;
+    }
+    .presupuesto__item{
+        display: flex;
+        margin: 20px 0;
+    }
+    .presupuesto__item:nth-child(3) .presupuesto__icono{
+        margin: 8px 53px;
+    }
+    .presupuesto__item:nth-child(4) .presupuesto__icono{
+        margin: 8px 45px;
+    }
+    .presupuesto__subtitulo{
+        text-align: left;
+    }
+
+    .maquinas--margin {
+        margin-top: 150px;
+    }
+
+
+    .servicios__item{
+        margin: 22px 0;
+    }
+    .fas.fa-check-square{
+        font-size: 20px;
+    }
+
+    .contacto {
+        margin-top: 130px;
+    }
+    .contacto__columnas{
+        display: flex;
+    }
+    .contacto__contactenos{
+        flex-grow: 1;
+    }
+    .contacto__formulario{
+        flex-grow: 1;
+        width: auto;
+    }
+    .contacto__datos{
+        margin: 30px 0;
+    }
+
+
+    .maquinarias{
+        margin-top: 140px;
+    }
+    .maquinarias__wrap{
+        flex-direction: row-reverse;
+    }
+    .maquinarias__item:nth-child(1){
+        width: 1100px;
+    }
+    .maquinarias__boton{
+        padding: 10px 8px;
+        i{
+            font-size: 20px;
+            margin-right: 5px;
+        }
+    }
+    .maquinarias__item:nth-child(2){
+        margin-left: 30px;
     }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
+    // .wrap--menu{
+    //     max-width: initial;
+    //     width: initial;
+    // }
     body{
         // background-color: yellow;
     }

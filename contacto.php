@@ -4,7 +4,7 @@
 <?php include "includes/head.php" ?>
 
 <body>
-    
+    <?php include "includes/header.php" ?>
     <section class="contacto">
         <div class="contacto__wrap wrap">
             <div class="contacto__columnas">
@@ -51,7 +51,7 @@
             </div>
         </div>
     </section>
-    <?php include "includes/header.php" ?>
+
     <?php include "includes/footer.php" ?>
     <?php include "includes/scripts.php" ?>
 </body>

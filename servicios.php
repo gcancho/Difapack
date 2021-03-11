@@ -11,7 +11,7 @@
    <div class="nosotros__wrap wrap">
        <h2 class="nosotros__titulo titulo">NUESTROS SERVICIOS</h2>
        <div class="nosotros__contenido">
-           <img class="nosotros__imagen" src="./imagenes/maquinas/Maquina_llenadoras_de_botellas.jpg" alt="">
+           <img class="nosotros__imagen" src="./imagenes/Dosificadora_de_aceite.jpg" alt="">
            <div class="servicios">
                 <div class="servicios__item">
                     <i class="fas fa-check-square"></i>
