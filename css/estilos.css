@@ -471,8 +471,15 @@ span {
   padding: 10px 0;
 }
 
+.videos__lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .videos__card {
   padding: 10px 0;
+  width: 100%;
 }
 
 .videos__subtitulo {
@@ -649,6 +656,16 @@ span {
   .header__menu__item {
     list-style: none;
     padding: 20px 0;
+  }
+
+  .videos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .videos__card {
+    max-width: 350px;
   }
 }
 @media (min-width: 992px) {
@@ -885,7 +902,7 @@ span {
 
   .maquinarias__item:nth-child(2) {
     margin-left: 30px;
-    min-width: 814px;
+    min-width: 580px;
     max-width: 814px;
   }
 
@@ -906,6 +923,18 @@ span {
     height: 54px;
     font-size: 1.1em;
   }
+
+  .videos {
+    margin-top: 150px;
+  }
+
+  .videos__card {
+    max-width: 450px;
+  }
+
+  .videos__video iframe {
+    height: 290px;
+  }
 }
 @media (min-width: 1200px) {
   body {
@@ -914,6 +943,10 @@ span {
 
   .maquinas__card {
     padding: 30px 40px;
+  }
+
+  .videos__card {
+    max-width: 545px;
   }
 }
 
