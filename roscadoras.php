@@ -24,8 +24,8 @@
                 </article>
                 <article class="maquinarias__item">
                     <h2 class="maquinarias__titulo titulo">Máquinas roscadoras</h2>
-                    <p class="maquinarias__descripcion"><b>La maquina roscadora (capsuladora)</b> para tapas pilfer boca 18 o boca 32 a mas.</p>
-                    <p class="maquinarias__descripcion">La máquina cuenta con una columna porta sistema encapsuladora un sistema de rotacion mediante poleas, fajas, motor y una caja de marcha y parada de facil accionamiento y control.</p>
+                    <p class="maquinarias__descripcion"><b>La máquina roscadora (capsuladora)</b> para tapas pilfer boca 18 o boca 32 a más.</p>
+                    <p class="maquinarias__descripcion">La máquina cuenta con una columna porta sistema encapsuladora un sistema de rotación mediante poleas, fajas, motor y una caja de marcha y parada de fácil accionamiento y control.</p>
                     <div class="maquinarias__conjunto">
                         <div class="maquinarias__modelos">
                             <div class="maquinarias__card">

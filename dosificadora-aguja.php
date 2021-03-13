@@ -24,10 +24,10 @@
                 </article>
                 <article class="maquinarias__item">
                     <h2 class="maquinarias__titulo titulo">Máquinas dosificadoras con sistema de aguja</h2>
-                    <p class="maquinarias__descripcion"><b>Las maquinas con sistema de aguja</b> estan hechas totalmente de acero inoxidable, y cuenta con un taponador en caso sea necesario.
-                    <p class="maquinarias__descripcion">La maquina pueden llenar a una velocidad de 30 frascos por minuto, cuenta con un sistema aguja de llenado por volumen y sistema de cierre de pico antigoteo.
+                    <p class="maquinarias__descripcion"><b>Las máquinas con sistema de aguja</b> estan hechas totalmente de acero inoxidable, y cuenta con un taponador en caso sea necesario.
+                    <p class="maquinarias__descripcion">La máquina pueden llenar a una velocidad de 30 frascos por minuto, cuenta con un sistema aguja de llenado por volumen y sistema de cierre de pico antigoteo.
                         Sus capaciades de llenado son desde 10 ml a 120 ml.
-                        Esta maquina puede llenar esencias, tinturas, agua oxigenada, alcohol, bencina, tiner, alcohol yodado, acetona, tintes, etc.
+                        Esta máquina puede llenar esencias, tinturas, agua oxigenada, alcohol, bencina, tiner, alcohol yodado, acetona, tintes, etc.
                     </p>
                     <div class="maquinarias__conjunto">
                         <div class="maquinarias__modelos">

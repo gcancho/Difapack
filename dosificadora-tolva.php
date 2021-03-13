@@ -23,9 +23,9 @@
             </article>
             <article class="maquinarias__item">
                 <h2 class="maquinarias__titulo titulo">Máquinas dosificadoras con tolva</h2>
-                <p class="maquinarias__descripcion"><b>La máquina dosificadora con tolva</b> esta hecha completamente de acero inoxidable incluyendo el piston
-                    Esta maquica cuenta con un pico anti goteo con sistema de cierre, una tolva con 60 Kg de capacidad y tambien patas niveladoras.</p>
-                <p class="maquinarias__descripcion">La maquina puede ejecutar el llenado a una velocidad de 50 golpes (pirotines) x minuto
+                <p class="maquinarias__descripcion"><b>La máquina dosificadora con tolva</b> esta hecha completamente de acero inoxidable incluyendo el pistón.
+                    Esta máquina cuenta con un pico anti goteo con sistema de cierre, una tolva con 60 Kg de capacidad y tambien patas niveladoras.</p>
+                <p class="maquinarias__descripcion">La máquina puede ejecutar el llenado a una velocidad de 50 golpes (pirotines) por minuto.
                     Ha sido fabricada para llenar masa de keke, marmoleado, mayonesa, manjar blanco, fosh, mermeladas, conservas, etc.
                 </p>
                 <div class="maquinarias__conjunto">

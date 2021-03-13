@@ -34,21 +34,21 @@
         <section class="bienvenida">
             <div class="wrap wrap--largo">
                 <div class="bienvenida__barra">
-                    <h1 class="bienvenida__titulo">BIENVENIDOS A DIFAPACK</h1>
+                    <h1 class="bienvenida__titulo">Bienvenidos a DifaPack</h1>
                 </div>
             </div>
             <div class="bienvenida__informacion">
                 <div class="wrap">
                     <img class="bienvenida__foto" src="./imagenes/maquinas/Maquina_llenadoras_de_botellas.jpg" alt="Maquina llenadoras de botellas" />
-                    <p class="bienvenida__parrafo">Somos una empresa aplicada al diseño, fabricación y venta de maquinas
+                    <p class="bienvenida__parrafo">Somos una empresa aplicada al diseño, fabricación y venta de máquinas
                         Dosificadoras, Llenadoras,
                         Roscadoras, Taponadoras, Enjugadoras, etc. para la industria alimentaria y afines, dedicadas a la
                         producción.</p>
                     <p class="bienvenida__parrafo">Debido a nuestros años de experiencia somos capaces de brindarle maquinas
                         que se ajusten a sus
                         necesidades de producción y al ser fabricantes directos, le ofrecemos el más alto soporte técnico y
-                        la capacitación necesaria para el buen funcionamiento de las maquinas.</p>
-                    <a class="bienvenida__boton boton" href="nosotros.php">LEER MÁS</a>
+                        la capacitación necesaria para el buen funcionamiento de las máquinas.</p>
+                    <a class="bienvenida__boton boton" href="nosotros.php">Leer más</a>
                 </div>
             </div>
         </section>

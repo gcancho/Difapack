@@ -23,8 +23,8 @@
             </article>
             <article class="maquinarias__item">
                 <h2 class="maquinarias__titulo titulo">Máquinas dosificadoras de miel</h2>
-                <p class="maquinarias__descripcion"><b>La maquina dosificadora de miel</b> esta hecha en acero inoxidable incluyendo el piston, cuenta con una valvula, su capacidad de llenado es desde 150 gramos a 1300gramos (miel).</p>
-                <p class="maquinarias__descripcion">Esta maquina tambien tiene un sistema de pico anti goteo con cierre, una tolva con 60 Kg de capacidad a mas y patas niveladoras. Tambien puede llenar jalea, glucosa, algarrobina, jarabe de goma, etc.</p>
+                <p class="maquinarias__descripcion"><b>La maquina dosificadora de miel</b> esta hecha en acero inoxidable incluyendo el pistón, cuenta con una válvula, su capacidad de llenado es desde 150 gramos a 1300 gramos (miel).</p>
+                <p class="maquinarias__descripcion">Esta máquina tambien tiene un sistema de pico anti goteo con cierre, una tolva con 60 Kg de capacidad a más y patas niveladoras. Tambien puede llenar jalea, glucosa, algarrobina, jarabe de goma, etc.</p>
                 <div class="maquinarias__conjunto">
                     <div class="maquinarias__modelos">
                         <div class="maquinarias__card">

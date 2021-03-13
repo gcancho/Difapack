@@ -291,6 +291,7 @@ span {
 .bienvenida__titulo {
   color: #fff;
   font-size: 18px;
+  text-transform: uppercase;
 }
 
 .bienvenida__foto {
@@ -376,11 +377,19 @@ span {
 
 .footer__icono--facebook {
   color: #3b5998;
+  opacity: 1;
+}
+.footer__icono--facebook:hover {
+  opacity: 0.9;
 }
 
 .footer__icono--youtube {
   color: #c4302b;
+  opacity: 1;
   margin-left: 5px;
+}
+.footer__icono--youtube:hover {
+  opacity: 0.9;
 }
 
 .footer__creditos {
@@ -603,6 +612,8 @@ span {
   height: 50px;
   padding: 5px 5px;
   font-size: 14px;
+  height: 90px;
+  max-height: 120px;
 }
 
 .contacto__boton {
@@ -631,6 +642,10 @@ span {
   .slider__btn {
     width: 30px;
     height: 30px;
+    background-color: #1a213f;
+  }
+  .slider__btn:hover {
+    background-color: #0c0f1d;
   }
 
   .slider__icono {
@@ -648,6 +663,20 @@ span {
     width: 76px;
   }
 }
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+  .header__menu__item {
+    list-style: none;
+    padding: 6px 0;
+  }
+
+  .header__menu__link {
+    font-size: 0.8em;
+  }
+
+  .header__menu__abajo {
+    display: none;
+  }
+}
 @media (min-width: 768px) {
   .header__logo {
     padding: 0 20px;
@@ -662,6 +691,12 @@ span {
   .header__menu__item {
     list-style: none;
     padding: 20px 0;
+  }
+
+  .maquinarias__item:nth-child(1) {
+    width: 1100px;
+    min-width: 370px;
+    max-width: 370px;
   }
 
   .videos__lista {
@@ -899,6 +934,8 @@ span {
 
   .maquinarias__item:nth-child(1) {
     width: 1100px;
+    min-width: 400px;
+    max-width: 370px;
   }
 
   .maquinarias__boton {
@@ -911,8 +948,6 @@ span {
 
   .maquinarias__item:nth-child(2) {
     margin-left: 30px;
-    min-width: 580px;
-    max-width: 814px;
   }
 
   .maquinarias__conjunto {
@@ -923,6 +958,7 @@ span {
   .maquinarias__modelos {
     flex-grow: 1;
     max-width: 400px;
+    padding-right: 20px;
   }
 
   .maquinarias__card {

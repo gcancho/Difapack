@@ -25,8 +25,8 @@
                 <article class="maquinarias__item">
                     <h2 class="maquinarias__titulo titulo">Máquinas llenadoras de botellas</h2>
                     <p class="maquinarias__descripcion"><b>La máquina llenadora de botellas</b> tiene una estructura hecha de acero inoxidable.
-                        Esta maquina puede ser regulada de acuerdo a la altura de las botellas y de acuerdo a su diamtro, puede llenar capacidades de 120ml a 3 litros, tambien puede ser fabricada con 4 picos a 12 picos y tiene un tanque con capacidad desde 30 a 90 litros o mas</p>
-                    <p class="maquinarias__descripcion">La máquina puede llenar aceite sacha inchi o ta bien sirve para llenar productos en frio tales como vinagre de manzana, citrus, agua de mesa, colonias, perfumes, esencias, etc.
+                        Esta máquina puede ser regulada de acuerdo a la altura de las botellas y de acuerdo a su diámetro, puede llenar capacidades de 120 ml a 3 litros, tambien puede ser fabricada con 4 picos a 12 picos y tiene un tanque con capacidad desde 30 a 90 litros o más.</p>
+                    <p class="maquinarias__descripcion">La máquina puede llenar aceite sacha inchi o tambien sirve para llenar productos en frío tales como vinagre de manzana, citrus, agua de mesa, colonias, perfumes, esencias, etc.
                     </p>
                     <div class="maquinarias__conjunto">
                         <div class="maquinarias__modelos">

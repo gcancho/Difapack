@@ -25,7 +25,7 @@
                     <h2 class="maquinarias__titulo titulo">Máquinas enjuagadoras</h2>
                     <p class="maquinarias__descripcion"><b>La máquina enjuagadora</b> es capaz de enjuagar botellas, vasos, o potes, de forma sencilla y sin complicaciones.</p>
                     <p class="maquinarias__descripcion">La presión del agua puede ser ajustada dependiendo del tipo de recipiente que se requiera enjuagar, asi como también las boquillas de los posa recipientes puede ser ajustada a la medida de boca 18, 32 o 60 milimetros.
-                        Tambien enjuaga galoneras, el tiempo de enjuage puede ser regulado desde 5 segundos a 3 minutos, mediante un sencillo temporizador instalado en la caja electrica.</p>
+                        Tambien enjuaga galoneras, el tiempo de enjuage puede ser regulado desde 5 segundos a 3 minutos, mediante un sencillo temporizador instalado en la caja eléctrica.</p>
                     <div class="maquinarias__modelos">
                         <div class="maquinarias__card">
                             <h3>Máquina enjuagadora de botellas ó potes</h3>
