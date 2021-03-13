@@ -616,11 +616,12 @@ span{
 .contacto__datos{
     display: flex;
     justify-content: center;
-    margin: 8px 0;
+    margin: 12px 0;
 }
 
 .contacto__dato{
     margin-left: 5px;
+    line-height: 16px;
 }
 
 .contacto__formulario{
@@ -672,6 +673,13 @@ span{
     .header{
         background-color: $color2;
     }
+    .slider__btn {
+        width: 30px;
+        height: 30px;
+    }
+    .slider__icono{
+        font-size: 14px;
+    }
 
     .maquinas__lista{
         display: flex;
@@ -689,9 +697,9 @@ span{
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
-    .header{
-        background-color: green;
-    }
+    // .header{
+    //     background-color: green;
+    // }
     .header__logo{
         padding: 0 20px;
         width: 12.375em;
@@ -837,8 +845,12 @@ span{
     }
     .footer__creditos{
         font-size: 0.9em;
+        a{
+            &:hover{
+                text-decoration: underline;
+            }
+        }
     }
-
 
 
     .nosotros{
